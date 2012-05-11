@@ -10,6 +10,12 @@ SITE
     windows (1.2.12)
       chef_handler (>= 0.0.0)
 
+PATH
+  remote: cookbooks-sources
+  specs:
+    demo_app (0.0.1)
+
 DEPENDENCIES
+  demo_app (>= 0)
   iis (>= 0)
 

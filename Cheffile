@@ -1,3 +1,4 @@
 site "http://community.opscode.com/api/v1"
 
 cookbook "iis"
+cookbook "demo_app", path: "cookbooks-sources"
